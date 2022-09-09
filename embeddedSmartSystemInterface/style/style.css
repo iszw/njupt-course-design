@@ -1,0 +1,60 @@
+body{
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+
+.none{
+    height: 10px;
+}
+
+.none #none_left{
+    height: 10px;
+    background-color: #FFFACD;
+}
+
+.none #none_right{
+    height: 10px;
+    background-color: #C1FFC1;
+}
+
+.content1 {
+    height: 300px;
+}
+
+.content2{
+    height: 300px;
+}
+
+.content1 #temperature{
+    height: 300px;
+    background-color: #FFFACD;
+}
+
+.content1 #illumination{
+    height: 300px;
+    background-color: #C1FFC1;
+}
+
+.content2 #PM{
+    height: 300px;
+    background-color: #FFF0F5;
+}
+
+.content2 #CO2{
+    height: 300px;
+    background-color: #BFEFFF;
+}
+
+.content1 .col-xs-6 .col-xs-6 img{
+    margin-left: -20px;
+}
+
+.content2 .col-xs-6 .col-xs-6 img{
+    margin-left: -20px;
+}
+
+.detail-heading {
+    margin-left: -20px;
+    font-size: 30px;
+    color: #2a6496;
+}

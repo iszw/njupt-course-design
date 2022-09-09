@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="700px"
+        android:layout_height="700px"
+        android:id="@+id/imageView2"
+        android:background="@drawable/error"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="您的网络被外星人劫持了呃。。"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:id="@+id/imageButton1"
+        android:background="@drawable/refresh"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

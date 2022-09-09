@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>智能家居信息采集</title>
+        <!-- Bootstrap -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <div class="none">
+            <div id="none_left" class="col-xs-6"></div>
+            <div id="none_right" class="col-xs-6"></div>
+        </div>
+
+        <div class="content1">
+            <div id="temperature" class="col-xs-6 detail">
+                <div class="col-xs-6">
+                    <img class="img-responsive" src="images/pic_t.png">
+                </div>
+                <div class="col-xs-6">
+                    <h2 class="detail-heading">温度</h2>
+                </div>
+                <div class="col-xs-12">
+                    <h1 id="searchResult_t" class="text-center text-danger">??</h1>
+                </div>
+            </div>
+
+            <div id="illumination" class="col-xs-6 detail">
+                <div class="col-xs-6">
+                    <img class="img-responsive" src="images/pic_i.png">
+                </div>
+                <div class="col-xs-6">
+                    <h2 class="detail-heading">光照</h2>
+                </div>
+                <div class="col-xs-12">
+                    <h1 id="searchResult_i" class="text-center text-danger">??</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="content2">
+            <div id="PM" class="col-xs-6 detail">
+                <div class="col-xs-6">
+                    <img class="img-responsive" src="images/pic_p.png">
+                </div>
+                <div class="col-xs-6">
+                    <h2 class="detail-heading">PM2.5</h2>
+                </div>
+                <div class="col-xs-12">
+                    <h1 id="searchResult_p" class="text-center text-danger">??</h1>
+                </div>
+            </div>
+
+            <div id="CO2" class="col-xs-6 detail">
+                <div class="col-xs-6">
+                    <img class="img-responsive" src="images/pic_c.png">
+                </div>
+                <div class="col-xs-6">
+                    <h2 class="detail-heading">CO2</h2>
+                </div>
+                <div class="col-xs-12">
+                    <h1 id="searchResult_c" class="text-center text-danger">??</h1>
+                </div>
+            </div>
+        </div>
+
+        <button id="refresh" class="col-xs-12 btn btn-success" type="submit">刷新</button>
+        
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="dist/js/bootstrap.min.js"></script> 
+
+        <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js"></script>
+        <script src="refresh.js"></script>
+    </body>
+</html>
